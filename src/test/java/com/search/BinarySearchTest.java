@@ -1,10 +1,8 @@
-package com.search;
+package java.com.search;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
-
-import src.main.java.com.search.BinarySearch;
 
 public class BinarySearchTest {
 

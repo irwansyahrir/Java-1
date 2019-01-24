@@ -1,10 +1,8 @@
-package com.sorts;
+package java.com.sorts;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 import org.junit.jupiter.api.Test;
-
-import src.main.java.com.sorts.SelectionSort;
 
 public class SelectionSortTest
 {

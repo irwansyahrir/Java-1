@@ -1,15 +1,15 @@
-package src.main.java.com.search;
+package java.com.search;
 
 public class InterpolationSearch {
 
 	/**
 	 * A linear interpolation search algorithm that finds the position of a
 	 * target value in an sorted array using its lowest value and highest value.
-	 * 
+	 *
 	 * Average time-complexity O(log log n) - uniformly distributed.
 	 * Worst-case time-complexity O(n) - non-uniformly distributed
 	 * Worst-case space complexity O(1)
-	 * 
+	 *
 	 * @param <T>This is any comparable type
 	 * @param arr This is the array where the element should be found
 	 * @param key This is the element to find in the array

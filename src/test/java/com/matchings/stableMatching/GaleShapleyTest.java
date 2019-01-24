@@ -1,13 +1,11 @@
-package com.matchings.stableMatching;
+package java.com.matchings.stableMatching;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import src.main.java.com.matchings.stableMatching.GaleShapley;
-
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.Random;
-import java.util.Collections; // for shuffling
-import java.util.ArrayList; // for shuffling
-import java.util.List; // for shuffling
 
 import org.junit.jupiter.api.Test;
 

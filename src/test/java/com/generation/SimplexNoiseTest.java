@@ -1,6 +1,7 @@
-package com.generation;
+package java.com.generation;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
 
 import java.awt.Color;
 import java.awt.image.BufferedImage;
@@ -10,8 +11,6 @@ import java.io.InputStream;
 import javax.imageio.ImageIO;
 
 import org.junit.jupiter.api.Test;
-
-import src.main.java.com.generation.SimplexNoise;
 
 public class SimplexNoiseTest {
 

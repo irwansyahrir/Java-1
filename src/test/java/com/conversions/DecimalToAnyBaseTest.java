@@ -1,6 +1,5 @@
-package com.conversions;
+package java.com.conversions;
 
-import src.main.java.com.conversions.DecimalToAnyBase;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

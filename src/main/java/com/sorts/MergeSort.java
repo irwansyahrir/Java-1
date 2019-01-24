@@ -1,4 +1,4 @@
-package src.main.java.com.sorts;
+package java.com.sorts;
 
 public class MergeSort {
 

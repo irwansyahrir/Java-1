@@ -1,14 +1,13 @@
-package src.main.java.com.sorts;
+package java.com.sorts;
 
-import static src.main.java.com.sorts.SortUtils.swap;
-import static src.main.java.com.sorts.SortUtils.less;
+import static java.com.sorts.SortUtils.less;
+import static java.com.sorts.SortUtils.swap;
 
 public class StoogeSort {
 
 	/**
 	 * This method implements recursion StoogeSort
-	 * 
-	 * @param int[] array to store number elements
+	 *
 	 * @param f first element in the array
 	 * @param l last element in the array
 	 */
