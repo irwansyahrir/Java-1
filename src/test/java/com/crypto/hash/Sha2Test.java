@@ -1,11 +1,13 @@
-package src.test.java.com.crypto.hash;
+package com.crypto.hash;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.lang.StringBuilder;
-import org.junit.Test;
-import org.junit.BeforeClass;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
 import src.main.java.com.crypto.hash.Sha2;
 
-import static junit.framework.Assert.assertEquals;
 
 
 public class Sha2Test {
@@ -16,7 +18,7 @@ public class Sha2Test {
 
     private static byte[][] vector;
 
-    @BeforeClass
+    @BeforeAll
     public static void setUpClass() {
         System.out.println("@BeforeClass setUpClass");
 
@@ -186,6 +188,6 @@ public class Sha2Test {
     public void TestInputByteArrayNotAltered() {
         byte[] array = vector[2];
         Sha2.SHA224(array);
-        assertEquals("user vector altered", array, vector[2]);
+        assertEquals(array, vector[2], "user vector altered");
     }
 }

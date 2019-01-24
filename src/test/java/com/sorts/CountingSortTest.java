@@ -1,7 +1,9 @@
-package src.test.java.com.sorts;
+package com.sorts;
 
-import org.junit.Assert;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+
+import org.junit.jupiter.api.Test;
+
 import src.main.java.com.sorts.CountingSort;
 
 public class CountingSortTest {
@@ -18,6 +20,6 @@ public class CountingSortTest {
         Integer[] sorted = new Integer[]{1, 1, 2, 2, 4, 5, 7};
 
         // Comparing the two integer arrays
-        Assert.assertArrayEquals(sorted, countingSort.sort(unsorted));
+        assertArrayEquals(sorted, countingSort.sort(unsorted));
     }
 }

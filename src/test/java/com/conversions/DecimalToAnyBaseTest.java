@@ -1,9 +1,9 @@
-package src.test.java.com.conversions;
+package com.conversions;
 
 import src.main.java.com.conversions.DecimalToAnyBase;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static junit.framework.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class DecimalToAnyBaseTest {
 
