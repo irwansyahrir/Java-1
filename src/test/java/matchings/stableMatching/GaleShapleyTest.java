@@ -17,7 +17,7 @@ public class GaleShapleyTest {
 
     @Test
     public void testGaleShapley() {
-        GaleShapley galeShapley = new GaleShapley();
+        GaleShapleyKotlin galeShapley = new GaleShapleyKotlin();
         int N = 10;
         int[][] menPrefs;
         int[][] womenPrefs;
